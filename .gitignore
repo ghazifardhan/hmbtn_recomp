@@ -1,0 +1,83 @@
+# ==============================================================================
+# PS1 Recompilation - .gitignore
+# ==============================================================================
+
+# --- Copyrighted ROMs, Disc Images & Game Assets (DMCA / GitHub 100MB Limit) ---
+disc/
+games/
+extracted/
+*.bin
+*.BIN
+*.cue
+*.CUE
+*.iso
+*.ISO
+*.img
+*.IMG
+*.mdf
+*.mds
+*.ccd
+*.sub
+*.chd
+*.CHD
+android/app/src/main/assets/*.bin
+android/app/src/main/assets/*.cue
+android/app/src/main/assets/STR/
+!android/app/src/main/assets/bios/openbios.bin
+
+# --- Save Files & Memory Cards ---
+saves/
+*.mcd
+*.srm
+*.sav
+*.psv
+
+# --- Host CMake Build Outputs ---
+build/
+cmake-build-*/
+out/
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+*.dll
+*.exe
+keybinds.ini
+
+# --- Android & Gradle Artifacts ---
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/.cxx/
+android/local.properties
+android/*.iml
+android/app/*.iml
+android/.idea/
+android/captures/
+android/.externalNativeBuild/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# --- Logs, Runtime Dumps & Temporary Files ---
+psx_last_run_report.json
+overlay_captures.json*
+*.log
+git_merge_failed.lock
+yarn.lock
+
+# --- Environment & Personal Configurations ---
+android-env.sh
+
+# --- IDE & OS Metadata ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

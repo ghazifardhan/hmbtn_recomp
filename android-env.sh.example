@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# Android SDK & NDK environment variables template
+# Copy to android-env.sh and adjust paths according to your system.
+
+export JAVA_HOME="/path/to/android-sdk/jdk"
+export ANDROID_HOME="/path/to/android-sdk"
+export ANDROID_SDK_ROOT="/path/to/android-sdk"
+export ANDROID_NDK_HOME="/path/to/android-sdk/ndk/26.3.11579264"
+export GRADLE_USER_HOME="$HOME/.gradle"
+export NDK_ROOT="$ANDROID_NDK_HOME"
+export PATH="$JAVA_HOME/bin:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/build-tools/34.0.0:$PATH"

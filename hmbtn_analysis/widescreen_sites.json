@@ -1,0 +1,21 @@
+{
+  "schema": "psxrecomp widescreen sites v1",
+  "static_only": true,
+  "imms_discovered": true,
+  "w_canonical": true,
+  "h_canonical": false,
+  "w_imms": [256,257,258,259],
+  "h_imms": [289],
+  "extent_funcs": [2147728400,2147737796],
+  "candidates": [
+    {"kind": "a1_sites", "pc": 2147572368, "func": 2147572276, "partner": 2147572372, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147572488, "func": 2147572396, "partner": 2147572492, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147578824, "func": 2147578624, "partner": 2147578828, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147613004, "func": 2147612836, "partner": 2147613008, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147620844, "func": 2147620784, "partner": 2147620860, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 4 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147675672, "func": 2147675220, "partner": 2147675676, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147721940, "func": 2147721892, "partner": 2147721952, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 3 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147726496, "func": 2147726408, "partner": 2147726500, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 1 word(s) before `addu` folds it into a coordinate"},
+    {"kind": "a1_sites", "pc": 2147728172, "func": 2147728132, "partner": 2147728184, "confidence": 50, "instr": "nop", "evidence": "takes $a1; repurposable nop 3 word(s) before `addu` folds it into a coordinate"}
+  ]
+}

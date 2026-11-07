@@ -1,0 +1,30 @@
+[game]
+name = "Harvest Moon - Back to Nature"
+id = "SLUS-01115"
+players = 1
+exe = "disc/SLUS_011.15"
+disc = "Harvest Moon - Back to Nature.cue"
+load_address = "0x80010000"
+entry_pc = "0x80011278"
+text_size = "0x0004E800"
+stack_base = "0x801FFFF0"
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Harvest Moon - Back to Nature Recompiled"
+memcard_dir = "saves"
+overlay_cache = true
+
+[video]
+renderer = "software"
+aspect_ratio = "4:3"
+render_thread = false
+present_thread = false
+vsync = "off"
+
+[controller]
+default_mode = "digital"
